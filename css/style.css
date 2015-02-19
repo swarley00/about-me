@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica-Neue", sans-serif;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+  color: white;
+  text-shadow: 0 2px 0 rgba(5, 32, 33, 0.6);
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('http://i60.tinypic.com/ieq82o.jpg');
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  border-top: solid 1em #09283B;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  margin-top: -0.1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+.content-footer,
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.social > li {
+  list-style-type: none;
+  display: inline-block;
+  padding: .2em .6em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.questions-section > p,
+.content-footer > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+  margin-top: 2em;
+}
+
+.questions-section > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
+}
+
+section > h1 {
+  margin-top: 2em;
+}
+
+h1 {  
+  color: #09283B;
+}
+
+h2 {
+  color: #8BACD3;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #8BACD3;
+}
+
+a:hover {
+  color: #C6C4C6;
+}
+
+.content-footer {
+  padding: 4em 0;
+  margin-top: 4em;
+}
+
+.content-footer > p {
+  color: white;
+}
+
+.content {
+  background-color: #1F272B;
+  width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+  .content-footer {
+    padding: 6em 0;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .introduction-section {
+    padding: 0 2em;
+  }
+  .location-section {
+    padding: 0 2em;
+  }
+  .questions-section {
+    padding: 0 2em;
+  }
+}
